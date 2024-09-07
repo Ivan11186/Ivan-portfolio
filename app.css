@@ -5,12 +5,18 @@
   background-color: rgb(23, 23, 92);
   margin: auto;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   padding: 0;
 }
 li {
   list-style: none;
+}
+img {
+  width: 4%;
 }
 .first img {
   display: inline-block;
@@ -25,10 +31,11 @@ li {
   display: inline-block;
   background-color: black;
   border: solid black 1px;
-  width: 20px;
+  margin-left: 1rem;
 }
 
 .first a {
+  display: inline-block;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -68,16 +75,26 @@ li {
   display: block;
   border-bottom: 1px black solid;
   width: 45%;
-  margin-left: 14px;
-  margin-top: 14px;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 .discribe1 td,
 tr {
-  padding-bottom: 45px;
-  padding-left: 30px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
 }
 .discribe1 img {
-  width: 350px;
+  width: 104%;
+  padding-right: 2rem;
+}
+#image1 {
+  width: 180%;
+  padding-right: 6rem;
+}
+#parag {
+  display: inline-block;
+  margin-left: 10.5rem;
 }
 .discribe h2 {
   margin-top: 2%;
@@ -96,8 +113,8 @@ tr {
   border-bottom: 1px solid black;
 
   display: inline-block;
-  margin-left: 45px;
-  width: 350px;
+  margin-left: 2.5rem;
+  width: 27%;
 }
 
 .disc1 td,
@@ -106,14 +123,13 @@ tr {
   font-family: sans-serif;
   text-align: center;
   font-size: small;
-  padding-bottom: 14px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .disc12 {
-  padding-left: 140px;
+  padding-left: 9rem;
 }
-#parag {
-  padding-left: 30px;
-}
+
 #oldpost {
   background-color: snow;
   color: black;
@@ -121,36 +137,40 @@ tr {
   text-align: center;
   text-decoration: none;
   border: solid black 1px;
-  margin-top: 20px;
-  margin-left: 50%;
-  padding: 10px;
+  margin-top: 2rem;
+  margin-left: 40rem;
+  padding: 1rem;
 }
 .oldpost1 {
-  width: 95%;
-  margin-top: 20px;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 6rem;
 }
 /*aside*/
 .hero {
-  width: 18%;
-  max-width: 350px;
-  min-width: 100px;
+  width: 20%;
+  height: 60vh;
 
-  max-height: 600px;
+  max-height: 1024px;
   min-height: 100px;
-  border: black groove 2px;
+  border: black solid 2px;
+  box-shadow: 2px 2px 2px black;
+  box-shadow: -2px -2px 2px black;
   border-radius: 20px;
   background-color: rgb(23, 23, 92);
   text-align: start;
   float: inline-end;
-  margin-right: 40px;
-  margin-top: 2%;
+  margin-right: 3rem;
+  margin-top: 2rem;
   color: beige;
-  padding: 20px;
-  padding-right: 10px;
+  padding: 1.5rem;
+  padding-right: 1rem;
+
   list-style: none;
 }
 .hero2 ul li {
   display: inline-block;
+  padding: 1rem;
 }
 .hero2 ul a {
   width: 100%;
@@ -179,15 +199,15 @@ tr {
 #hero1 {
   text-align: start;
   display: inline-block;
-  margin-left: 4%;
+  margin-left: 1rem;
 }
 .herosearch {
-  display: inline;
+  display: inline-block;
   background-color: snow;
   border-radius: 10px;
   position: relative;
   margin-left: 20px;
-
+  margin-top: 1rem;
   width: 80%;
 }
 
@@ -299,11 +319,11 @@ td {
 }
 .discfooter {
   border-bottom: 1px solid black;
-  margin-left: 20px;
+  margin-left: 2rem;
   width: 70%;
 }
 .discfooter tr td {
-  padding-top: 600px;
+  padding-top: 70rem;
   padding-left: 0px;
   padding-bottom: 0;
   padding-right: 362px;
@@ -318,7 +338,7 @@ td {
 
 .discfooter2 {
   padding-top: 0;
-  padding-left: 20px;
+  padding-left: 2rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -328,7 +348,7 @@ td {
 }
 .discfooter3 {
   display: block;
-  margin-left: 20px;
+  margin-left: 2rem;
 
   padding-top: 0;
   margin-top: 0;
@@ -348,8 +368,8 @@ td {
 .tagsfooter {
   border: 1px solid black;
   width: 70%;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 .tagsimage {
   display: inline-block;
@@ -367,20 +387,21 @@ td {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin-bottom: -18px;
-  margin-left: 4px;
-  margin-top: 4px;
+  margin-bottom: -1.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
 .tagsanchor {
   display: inline-block;
   width: 30%;
-  margin-left: 290px;
-  padding-left: 148px;
+  margin-left: 12rem;
+  padding-left: 30rem;
+  padding-bottom: 2rem;
 }
 
 #anchorborder {
   border-right: 1px solid black;
-  padding-right: 8px;
+  padding-right: 1.8rem;
 }
 #tagsfooterparag {
   text-align: center;
